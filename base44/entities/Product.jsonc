@@ -1,0 +1,35 @@
+{
+  "name": "Product",
+  "type": "object",
+  "properties": {
+    "sku": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "qty": {
+      "type": "number",
+      "default": 0
+    },
+    "min_qty": {
+      "type": "number",
+      "default": 10
+    },
+    "sale_pct": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "required": [
+    "sku",
+    "name",
+    "price"
+  ]
+}
